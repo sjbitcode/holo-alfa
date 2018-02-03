@@ -61,24 +61,6 @@
   </style>
 <![endif]-->
 
-<!-- Don't show the dot before first article on home page -->
-{% if site.show-subtitle == false and site.display-social-icons == true %}
-<style>
-header {
-  margin-bottom: 40px;
-}
-@media all and (min-width: 500px) {
-  header {
-    margin-bottom: 100px;
-  }
-}
-header::after {
-  display: none;
-}
-</style>
-{% endif %}
-<!-- -->
-
 {% if page.home != true or site.show-subtitle == false and site.display-social-icons == false %}
 <style>
 header {

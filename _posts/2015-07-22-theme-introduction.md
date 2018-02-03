@@ -3,7 +3,7 @@ title: Theme introduction
 cover-image: hipster.jpg
 ---
 
-This :wink: post is a showcase of what Holo Alfa looks like, and a reference guide for how you can use it to make your blog shine.
+This post is a showcase of what Holo Alfa looks like, and a reference guide for how you can use it to make your blog shine.
 
 <!--more-->
 

@@ -3,8 +3,8 @@ layout: page
 title: About
 ---
 
-Hello! :wave: Welcome to my humble abode on the internet. I'm Sangeeta and I enjoy building applications using Python. Here you'll find mostly tech posts & code snippets.
+Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. Created for free and for fun by Stijn. Get the latest version at the [Github repository](https://github.com/steinvc/holo-alfa).
 
 ---
 
-This blog is powered by Jekyll and hosted on Amazon S3.
+Holo Alfa is open source, [MIT license](http://opensource.org/licenses/MIT).
