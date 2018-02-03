@@ -11,7 +11,7 @@
 	{% endif %}
 	<div class="wrap">
 		{% include header.html %}
-		{{ content }}
+		{{ content | emojify }}
 	  <script>
 	    $("article").fitVids();
 	    $('article p').each(function(i){

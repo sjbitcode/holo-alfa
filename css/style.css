@@ -265,12 +265,14 @@ article {
 article::after,
 header::after {
   margin: 50px 0;
-  content: "•";
+  /* content: "•"; */
+  /* content: "---"; */
+  content: ". . .";
   line-height: 0;
   font-size: 60px;
   display: block;
   text-align: center;
-  color: rgba({{ site.theme-color }}, 0.4);
+  color: rgba({{ site.theme-color }}, 1.0);
 }
 article:last-of-type::after {
   content: "";
@@ -330,9 +332,9 @@ input[type="submit"] {
 }
 footer {
   font-size: 0.8em;
-  color: rgba({{ site.text-color }},0.5);
+  color: rgba({{ site.text-color }}, 0.5);
   text-align: center;
-  background-color: rgba({{ site.text-color }}, 0.05);
+  background-color: rgba({{ site.text-color }}, 0.0);
   border-top: 1px solid rgba({{ site.text-color }}, 0.1);
   height: 140px;
 }
@@ -378,7 +380,8 @@ nav a.current {
 }
 .subtitle {
   margin: 30px 0;
-  color: rgba({{ site.text-color }},.5);
+  /* color: rgba({{ site.text-color }},.5); */
+  color: rgba({{ site.text-color }},1.0);
 }
 .subtitle a {
   background-image: -webkit-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
