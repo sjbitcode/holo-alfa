@@ -3,4 +3,4 @@ layout: page
 title: Thank you
 ---
 
-Thank you for your message!
+Thank you for your message! :sparkles:

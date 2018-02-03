@@ -1,20 +1,21 @@
+emoji_dir: /images/emoji
 
 # The name of your website.
-name: Holo Alfa
+name: sangeeta.io
 
 description:
 
   # Description of your site. This will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+  meta: Blog about code and random thoughts.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
+  subtitle: ""
 
 author:
-  name: Dr. Jekyll # Change this!
+  name: Sangeeta Jadoonanan # Change this!
 
   # Necessary for contact page
-  email: your@email.com # Change this!
+  email: contact@sangeeta.io # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
@@ -36,22 +37,22 @@ lang: en
 
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
-show-subtitle: true
-display-social-icons: false
+show-subtitle: false
+display-social-icons: true
 
-footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+footer-text: Powered by Jekyll - <a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> theme
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
 
 # Toolbar color for Chrome on Android.
-theme-color-attr: "#00f0ff"
+theme-color-attr: "#f5bb51"
 
 # Color of Microsoft live Tile.
-ms-tile-color: "#00f0ff"
+ms-tile-color: "#f5bb51"
 
 # Color used throughout the theme. Format: R, G, B.
-theme-color: 0, 240, 255 # Original: 0, 240, 255
+theme-color: 245, 187, 81 # Original: 0, 240, 255
 
 # Text color used throughout the theme. Format: R, G, B.
 text-color: 0, 0, 0 # Original: 0, 0, 0
@@ -80,7 +81,7 @@ paginate: 3
 display-next-prev-post: false
 
 # Leave empty if you don't want comments on post pages.
-disqus-shortname:
+disqus-shortname: "https-sangeeta-io"
 
 
 ################
@@ -89,7 +90,7 @@ disqus-shortname:
 
 # Use a complete url here, including http:// and such. Requiring just usernames
 # has been considered, but this is way more customizable.
-twitter:
+twitter: "http://twitter.com/sjbitcode"
 youtube:
 instagram:
 tumblr:
@@ -98,8 +99,8 @@ google-plus:
 reddit:
 soundcloud:
 medium:
-linkedin:
-github:
+linkedin: "http://linkedin.com/in/sjbitcode"
+github: "http://github.com/sjbitcode"
 behance:
 codepen:
 dribbble:
@@ -115,7 +116,7 @@ paypal:
 
 # Useful for translating into other languages.
 
-var_on_the_web: On the web
+var_on_the_web: come say hi
 var_read: Read # Text after each post summary on the homepage.
 var_newer: Newer
 var_older: Older
